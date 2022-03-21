@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap');
+
+body {
+
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+.bg-img {
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button-row {
+    row-gap: 1rem;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+.logo-image {
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
+
+.hero-heading {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-description {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 1.5rem;
+
+}
+
+.main {
+    margin-top: -200%;
+}
+
+.comp-row {
+    margin-top: 4rem;
+    row-gap: 1rem;
+}
+
+.btn {
+    -webkit-border-radius: 37;
+    -moz-border-radius: 37;
+    border-radius: 37px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 21px;
+    background: hsl(171, 66%, 44%);
+    padding: 10px 85px 10px 80px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+/* second-section */
+
+.second-section {
+    position: relative;
+    margin-top: 10rem;
+
+}
+
+.sec-heading {
+
+    margin-bottom: 1rem;
+}
+
+.sec-des {
+
+    margin-bottom: 1.5rem;
+}
+
+.comp-image {
+    width: 90%
+}
+
+.third-section {
+    position: relative;
+    margin-top: 8rem;
+}
+
+/* fourth-section */
+.fourth-section {
+    position: relative;
+    margin-top: 8rem;
+}
+
+.feat-ico {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.feat-row {
+    margin-top: 5rem;
+    row-gap: 3rem;
+}
+
+.feats {
+    width: 30%;
+}
+
+/* final-section */
+
+.final-section {
+    position: relative;
+    margin-top: 8rem;
+}
+
+.final-heading,
+.final-des {
+    margin-bottom: 2rem;
+}
+
+/* footer-sectiion */
+
+.footer-section {
+    margin-top: 8rem;
+}
+
+.footer-logo {
+    width: 20%
+}
+
+ul {
+    padding: 0;
+    margin-top: 2rem;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ico {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
